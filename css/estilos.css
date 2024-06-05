@@ -1,0 +1,120 @@
+.header {
+    background-image: url('../image/slidercentral.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Ajusta la altura según sea necesario */
+    text-align: center;
+    color: white;
+    
+    
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Color de fondo con transparencia */
+    z-index: 1;
+}
+
+.logo img {
+    width: 80px; /* Ajusta el tamaño del logotipo según sea necesario */
+    height: auto;
+}
+
+.title {
+    margin-left: 20px; /* Espacio entre el logotipo y el texto */
+}
+
+.title h1, .title h2 {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.title h1 {
+    font-size: 32px;
+}
+
+.title h2 {
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+
+
+.main {
+    padding: 20px;
+}
+
+.contenedor01 {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content:space-around;
+}
+
+.column {
+    flex-basis: 450px;
+    margin-right: 40px;
+}
+
+.column:last-child {
+    margin-right: 0;
+}
+
+.column h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.column p {
+    margin-bottom: 10px;
+}
+
+.column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.column ul li {
+    margin-bottom: 5px;
+}
+
+.column img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    border: 10px solid transparent;
+    padding: 10px;
+    border-image: url(../image/border.png) 30 round;
+}
+
+
+.fa-eye{
+    font-size: 25px;
+    margin: 10px;
+    color: blue;
+}
+
+.fa-user-secret{
+    font-size: 25px;
+    margin: 10px;
+    color: blue;
+}
+
+.fa-school{
+    font-size: 25px;
+    margin: 10px;
+    color: blue;
+}
+
+.fa-sun{
+    font-size: 25px;
+    margin: 10px;
+    color: blue;
+}
